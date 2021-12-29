@@ -52,7 +52,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _onPickImageButtonPressed() async {
-    selectedAssets = await AssetPicker.pickAssets(context,
+    selectedAssets = await AssetPicker.pickAssets(
+            
+            context,
             pickerTheme: ThemeData(),
             textDelegate: EnglishTextDelegate(),
             selectedAssets: selectedAssets) ??

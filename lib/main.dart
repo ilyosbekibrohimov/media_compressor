@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:image_picker_test/wechat.dart';
+import 'package:image_picker_test/video_compress.dart';
 import 'package:wechat_assets_picker/wechat_assets_picker.dart';
 
 const Color themeColor = Color(0xff00bc56);
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           cursorColor: themeColor,
         ),
       ),
-      home: const HomeScreen(),
+      home:  VideoCompressScreen(),
     );
   }
 }
